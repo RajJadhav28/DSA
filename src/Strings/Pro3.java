@@ -22,7 +22,7 @@ public class Pro3 {
 		// Using Lambda Expression to print characters
        //Arrays.stream(new String(ch1).split("")).forEach(c -> System.out.print(c));
 		for(char c:ch1) {
-			System.out.print(c);
+			System.out.println(c);
 		}
 	}
 

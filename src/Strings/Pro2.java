@@ -21,7 +21,7 @@ public class Pro2 {
 		System.out.println(s5.toString());//String.format()
 		//Used for formatting strings using placeholders.
 		//Works similarly to printf() in C.
-		//Uses format specifiers like %s (string), %d (integer), %f (float), etc.
+		//Uses format specifiers like %s (string), %d (integer), %f (float).
 		String name="Raj";
 		int age=27;
 		String formattedString=String.format("My name is %s and I am %d years old", name, age);

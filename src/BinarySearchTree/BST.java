@@ -50,7 +50,7 @@ public class BST {
 		if(root.data>val) {
 			root.left=delete(root.left,val);
 		}
-		if(root.data<val) {
+		else if(root.data<val) {
 			root.right=delete(root.right, val);
 		}
 		else {
@@ -95,8 +95,8 @@ public class BST {
 //		}else {
 //			System.out.println("Value not found!!!");
 //		}
-		delete(root, 10);
-		inorder(root);
+//		delete(root, 10);
+//		inorder(root);
 		
 	}
 
