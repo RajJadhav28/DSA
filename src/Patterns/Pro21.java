@@ -19,5 +19,6 @@ public class Pro21 {
 			}
 			System.out.println();
 		}
+		sc.close();
 	}
 }

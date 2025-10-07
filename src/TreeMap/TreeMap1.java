@@ -41,6 +41,18 @@ public class TreeMap1 {
 		System.out.println("tailMap:"+map1.tailMap(2));
 		System.out.println("Sub Map:"+map1.subMap(1, 2));
 		
-	}
-	
+		System.out.println("descending Map:"+map1.descendingMap());
+		System.out.println("Descending Iterstor:");
+		map1.descendingKeySet().forEach(a->{
+			System.out.println(a);
+		});
+		System.out.println("Descending Iterstor:");
+		map1.descendingMap().forEach((Key, Value)->{
+			System.out.println(Key+":"+Value);
+		});
+		for(Map.Entry<Integer, String> entry:map1.entrySet()) {
+			System.out.println(entry.getKey()+":"+entry.getValue());
+		}
+		System.out.println("Descending Map:"+map1.descendingKeySet());
+	}	
 }
